@@ -312,3 +312,46 @@ header {
   height: 48px;
   border-radius: 10px;
 }
+
+.parts{
+  width: 1440px;
+  height: 200px;
+  display: flex;
+  
+
+}
+
+.part1{
+  flex:.6;
+  padding: 0px 150px;
+  
+}
+.part1 h1{
+  color: #174F3B;
+  font-size: 28 px;
+  font-weight: bold;
+  padding: 20px 0px;
+}
+.part1 p{
+  font-weight: 300;
+}
+.part1 .copyright{
+  margin: 30px 0px;
+}
+
+
+.part2,.part3,.part4{
+  flex: .2;
+  padding: 30px 0;
+}
+
+.part2 h3,.part3 h3,.part4 h3{
+  color: #19392D;
+  font-size: 17px;
+  font-weight: 700;
+  padding: 20px 0px;
+}
+
+.part2 p,.part3 p,.part4 p{
+  font-weight: 300;
+}
