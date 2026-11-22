@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Noto Sans Bengali", sans-serif;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 80vh;
+  padding: 15px 50px;
+}
+
+.headerTitle {
+    display: flex;
+  color: #174f3b;
+  font-size: 29px;
+  font-weight: bold;
+}
+.headerTitle .title{
+    padding-top: 10px;
+}
+.homepageNav {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+}
+.homepageNav a {
+  text-decoration: none;
+  color: #19392d;
+  font-size: 16px;
+}
+.homepageNav a.login-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #174f3b;
+  color: white;
+  width: 140px;
+  height: 48px;
+  border-radius: 8px;
+}
+
+.homepage_top {
+  background-color: #eaf7ef;
+  display: flex;
+  padding: 30px;
+}
+.homepage-top-leftside .headtext {
+  font-size: 62px;
+  font-weight: bold;
+  color: #19392d;
+}
+
+.homepage-top-rightside-pic {
+  width: 610px;
+  height: 554px;
+}
+.homepage-top-leftside,
+.homepage-top-rightside {
+  flex: 1;
+}
+.homepage-top-leftside {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 45px;
+  color: #637369;
+}
+.buttons {
+  display: flex;
+  gap: 20px;
+}
+.sign_in {
+  background-color: #174f3b;
+  width: 240px;
+  height: 48px;
+  color: white;
+  border-radius: 8px;
+  border: none;
+}
+
+.helping-site {
+  background-color: white;
+  width: 190px;
+  height: 48px;
+  border-radius: 8px;
+  border: none;
+}
+.headings-foot{
+    font-size: small;
+}
+.apnar_jonno_toiri{
+    padding: 40px;
+}
+
+.apnar_jonno_toiri h1{
+    color: #19392D;
+    padding: 10px;
+    font-weight: normal;
+    
+}
+.apnar_jonno_toiri p{
+    color: #637369;
+    padding-left: 12px;
+}
+.cards{
+    display: flex;
+    gap: 25px;
+    padding: 10px;
+}
+
+.goru-card, .murgi-card, .fosol-card, .kreta-card, .prani-chikitshak-card, .krishibid-card{
+    padding: 10px;
+    width: 210px;
+    height: 220px;
+   
+}
+.goru-card{
+     background-color:#F7F8F2 ;
+}
+.murgi-card{
+    background-color: #F7F8F2;
+}
+.fosol-card{
+    background-color: #EFF4DE;
+}
+.kreta-card{
+    background-color: #F7F8F2;
+}
+.prani-chikitshak-card{
+    background-color: #EFF4DE;
+}
+.krishibid-card{
+    background-color: #F7F8F2;
+}
+.goru_pic,.murgi_pic,.fosol_pic,.kreta_pic,.prani_chikitshok_pic,.krishibid_pic{
+    height: 36px;
+    width: 31px;
+    padding-left: 20px;
+    
+}
+.cards p{
+    color: #637369;
+    padding: 10px;
+
+}
+.goru-card h3,.murgi-card h3,.fosol-card h3, .kreta-card h3, .prani-chikitshak-card h3, .krishibid-card h3{
+    padding: 10px;
+    color: #19392D;
+    font-weight: bold;
+}
+.cards a{
+    text-decoration: none;
+    color: #174F3B;
+   
+}
+
+.goru-card .see_details{
+    padding: 20px;
+    
+}
+.three_steps{
+    display: flex;
+    flex-direction: column;
+    background-color:#edf0e7 ;
+    
+}
+.three_steps h1{
+  padding: 10px;
+    color:#19392D;
+    font-weight: 400;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.steps{
+  display: flex;
+  gap: 10%;
+  padding: 20px;
+}
+
+.step1,.step2,.step3{
+  padding: 20px;
+  display: flex;
+}
+.number {
+  background-color: #cedab5;
+  padding: 10px;
+  border-radius: 25px;
+  height: 28px;
+  width: 28px;
+  margin: 20px;
+  margin-top: 0px;
+  
+  
+}
+.number p{
+margin: 20%;
+
+}
+
+.identity h3{
+  font-weight: 600;
+  font-size:21px ;
+  color: #19392D;
+
+}
+
+.identity p{
+  color: #637369;
+  font-size: 15px;
+  margin-top: 7px;
+}
