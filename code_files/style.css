@@ -29,15 +29,19 @@ header {
 }
 .homepageNav a {
   text-decoration: none;
-  color: #19392d;
+  color: #32630c;
   font-size: 16px;
 }
-.homepageNav a.login-button {
+.log a{
+  color: white;
+
+}
+.login-button {
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #174f3b;
-  color: white;
+  
   width: 140px;
   height: 48px;
   border-radius: 8px;
@@ -73,6 +77,15 @@ header {
   display: flex;
   gap: 20px;
 }
+.login-button{
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+.login-button:hover{
+  background-color: rgb(165, 212, 145) ;
+  color: black;
+  transform: translateY(-4px) scale(1.05);
+}
 .sign_in {
   background-color: #174f3b;
   width: 240px;
@@ -80,8 +93,14 @@ header {
   color: white;
   border-radius: 8px;
   border: none;
+  cursor: pointer;
+  transition: all 0.4s ease;
 }
-
+.sign_in:hover{
+  background-color: rgb(165, 212, 145);
+  color: rgb(0, 0, 0);
+  transform: translateY(-4px) scale(1.05);
+}
 .helping-site {
   background-color: white;
   width: 190px;
@@ -311,8 +330,14 @@ header {
   width: 210px;
   height: 48px;
   border-radius: 10px;
+  cursor: pointer;
+  transition: 0.4s ease;
 }
-
+.join:hover{
+  color:white;
+  background-color:#5f8741;
+transform: translateY(-4px) scale(1.05);
+}
 .parts{
   width: 1440px;
   height: 200px;
