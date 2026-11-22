@@ -14,13 +14,13 @@ header {
 }
 
 .headerTitle {
-    display: flex;
+  display: flex;
   color: #174f3b;
   font-size: 29px;
   font-weight: bold;
 }
-.headerTitle .title{
-    padding-top: 10px;
+.headerTitle .title {
+  padding-top: 10px;
 }
 .homepageNav {
   display: flex;
@@ -89,99 +89,111 @@ header {
   border-radius: 8px;
   border: none;
 }
-.headings-foot{
-    font-size: small;
+.headings-foot {
+  font-size: small;
 }
-.apnar_jonno_toiri{
-    padding: 40px;
-}
-
-.apnar_jonno_toiri h1{
-    color: #19392D;
-    padding: 10px;
-    font-weight: normal;
-    
-}
-.apnar_jonno_toiri p{
-    color: #637369;
-    padding-left: 12px;
-}
-.cards{
-    display: flex;
-    gap: 25px;
-    padding: 10px;
+.apnar_jonno_toiri {
+  padding: 40px;
 }
 
-.goru-card, .murgi-card, .fosol-card, .kreta-card, .prani-chikitshak-card, .krishibid-card{
-    padding: 10px;
-    width: 210px;
-    height: 220px;
-   
-}
-.goru-card{
-     background-color:#F7F8F2 ;
-}
-.murgi-card{
-    background-color: #F7F8F2;
-}
-.fosol-card{
-    background-color: #EFF4DE;
-}
-.kreta-card{
-    background-color: #F7F8F2;
-}
-.prani-chikitshak-card{
-    background-color: #EFF4DE;
-}
-.krishibid-card{
-    background-color: #F7F8F2;
-}
-.goru_pic,.murgi_pic,.fosol_pic,.kreta_pic,.prani_chikitshok_pic,.krishibid_pic{
-    height: 36px;
-    width: 31px;
-    padding-left: 20px;
-    
-}
-.cards p{
-    color: #637369;
-    padding: 10px;
-
-}
-.goru-card h3,.murgi-card h3,.fosol-card h3, .kreta-card h3, .prani-chikitshak-card h3, .krishibid-card h3{
-    padding: 10px;
-    color: #19392D;
-    font-weight: bold;
-}
-.cards a{
-    text-decoration: none;
-    color: #174F3B;
-   
-}
-
-.goru-card .see_details{
-    padding: 20px;
-    
-}
-.three_steps{
-    display: flex;
-    flex-direction: column;
-    background-color:#edf0e7 ;
-    
-}
-.three_steps h1{
+.apnar_jonno_toiri h1 {
+  color: #19392d;
   padding: 10px;
-    color:#19392D;
-    font-weight: 400;
-    margin-left: 50px;
-    margin-top: 20px;
+  font-weight: normal;
 }
-.steps{
+.apnar_jonno_toiri p {
+  color: #637369;
+  padding-left: 12px;
+}
+.cards {
+  display: flex;
+  gap: 25px;
+  padding: 10px;
+}
+
+.goru-card,
+.murgi-card,
+.fosol-card,
+.kreta-card,
+.prani-chikitshak-card,
+.krishibid-card {
+  padding: 10px;
+  width: 210px;
+  height: 220px;
+}
+.goru-card {
+  background-color: #f7f8f2;
+}
+.murgi-card {
+  background-color: #f7f8f2;
+}
+.fosol-card {
+  background-color: #eff4de;
+}
+.kreta-card {
+  background-color: #f7f8f2;
+}
+.prani-chikitshak-card {
+  background-color: #eff4de;
+}
+.krishibid-card {
+  background-color: #f7f8f2;
+}
+.goru_pic,
+.murgi_pic,
+.fosol_pic,
+.kreta_pic,
+.prani_chikitshok_pic,
+.krishibid_pic {
+  height: 36px;
+  width: 31px;
+  padding-left: 20px;
+}
+.cards p {
+  color: #637369;
+  padding: 10px;
+}
+.goru-card h3,
+.murgi-card h3,
+.fosol-card h3,
+.kreta-card h3,
+.prani-chikitshak-card h3,
+.krishibid-card h3 {
+  padding: 10px;
+  color: #19392d;
+  font-weight: bold;
+}
+.cards a {
+  text-decoration: none;
+  color: #174f3b;
+}
+
+.goru-card .see_details {
+  padding: 20px;
+}
+.three_steps {
+  display: flex;
+  flex-direction: column;
+  background-color: #edf0e7;
+  margin: 40px;
+  border-radius: 8px;
+}
+.three_steps h1 {
+  padding: 10px;
+  color: #19392d;
+  font-weight: 400;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+.steps {
   display: flex;
   gap: 10%;
   padding: 20px;
 }
 
-.step1,.step2,.step3{
+.step1,
+.step2,
+.step3 {
   padding: 20px;
   display: flex;
 }
@@ -193,23 +205,110 @@ header {
   width: 28px;
   margin: 20px;
   margin-top: 0px;
-  
-  
 }
-.number p{
-margin: 20%;
-
+.number p {
+  margin: 20%;
 }
 
-.identity h3{
+.identity h3 {
   font-weight: 600;
-  font-size:21px ;
+  font-size: 21px;
+  color: #19392d;
+}
+
+.identity p {
+  color: #637369;
+  font-size: 15px;
+  margin-top: 7px;
+}
+
+.shopOverview {
+  display: flex;
+  flex-direction: column;
+}
+
+.shopOverview-top {
+  display: flex;
+  justify-content: space-between;
+}
+.shopCards {
+  display: flex;
+  gap: 60px;
+  padding-left: 70px;
+  margin: 20px 70px;
+  
+  
+}
+
+.itemPic {
+  width: 416px;
+  height: 158px;
+}
+.shopOverview-left h1 {
+  font-size: 32px;
+  color: #19392d;
+  font-weight: 400;
+}
+.shopOverview-left p {
+  color: #637369;
+  font-size: 16px;
+}
+
+.shopOverview-left {
+  padding:0 40px;
+  margin: 0 30px;
+}
+.shopOverview-right {
+  color: #174f3b;
+  font-size: 16px;
+  padding: 40px;
+  margin-right: 70px;
+}
+
+.shopCard1 h3,.shopCard2 h3,.shopCard3 h3{
+  font-size: 18px;
+  font-weight: 500;
   color: #19392D;
 
 }
 
-.identity p{
+.shopCard1 p,.shopCard2 p,.shopCard3 p{
+  font-size: 13px;
+  font-weight: normal;
   color: #637369;
-  font-size: 15px;
-  margin-top: 7px;
+}
+
+.shopCard1 .price,.shopCard2 .price,.shopCard3 .price{
+  color: #174F3B;
+  font-size: 17px;
+  font-weight: 600;
+}
+.marketing{
+  background-color:#174F3B ;
+  display: flex;
+  justify-content: space-between;
+  width: 1440px;
+  height: 200px;
+  padding: 0px 40px;
+  margin: 30px 60px;
+}
+.marketing-left,.marketing-right{
+  margin: 60px 40px;
+}
+.marketing-left h1{
+  font-size: 38px;
+  color: white;
+  font-weight: 400;
+}
+
+.marketing-left p{
+  color:white;
+  font-size: 18px;
+}
+
+.marketing-right .join{
+  background-color: #DDEA9A;
+  width: 210px;
+  height: 48px;
+  border-radius: 10px;
 }
