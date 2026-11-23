@@ -380,3 +380,209 @@ transform: translateY(-4px) scale(1.05);
 .part2 p,.part3 p,.part4 p{
   font-weight: 300;
 }
+.universal-head{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-left: 42%;
+}
+.khamarika_logo{
+  height:28px ;
+  width: 28px;
+}
+
+.universal-head h1{
+  color: #174F3B;
+  font-size: 29px;
+  font-weight: bold;
+}
+.signup-page{
+  display: flex;
+  background-color: #eef3f1;
+}
+.krishok-photo{
+  height: 510px;
+  width: 530px;
+}
+.signup-page .left{
+  background-color: #174F3B;
+  width: 530px;
+  height: 942px;
+  margin: 40px;
+  border-radius: 16px;
+}
+.signup-page .left-bottom{
+  padding: 40px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.signup-page .left-bottom .features{
+  color: #DDEA9A;
+}
+.signup-page .left-bottom p{
+  font-size: 19px;
+}
+
+.signup-page .right{
+  padding: 40px;
+}
+.signup-page .right-top h1{
+  color: #19392D;
+  font-size: 35px;
+  padding: 10px 0px;
+}
+.signup-page .right-top p{
+  color:#637369 ;
+  font-weight: 300px;
+  padding-bottom: 10px;
+}
+.signup-page .right-top .steps{
+  color: #174F3B;
+  font-weight: 500;
+  padding-left: 0px;
+}
+
+.register-form{
+  padding: 20px 0px;
+}
+.register-form .role-heading{
+ color: #19392D;
+ padding-bottom: 16px;
+ font-weight: 600;
+}
+
+.register-form .role-grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  margin-bottom: 25px;
+}
+.register-form .role-card{
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 15px;
+  border-radius: 9px;
+   color: #19392D;  
+  background-color: #ffffff;
+  border: 1.5px solid #e2e8f0;
+  cursor: pointer;
+  transition: all .3s ease;
+}
+
+
+.register-form .role-card:hover{
+  transform: scaleY(1.05) translateY(-4px);
+  background-color: #3b681a;
+  color: white;
+  
+}
+.register-form .role-card:has(input[type="radio"]:checked) {
+  border-color: #166534;   
+  background-color: #EDF3DE; 
+  color: #19392D;  
+}  
+.register-form .role-card input[type="radio"] {
+  margin-top: 3px;
+  width: 16px;
+  height: 16px;
+  accent-color: #166534;
+  cursor: pointer;
+}
+
+.register-form .role-content{
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.register-form .role-title{
+  color: #19392D;
+  font-size: 18px;
+  font-weight: 550;
+}
+.register-form .role-desc{
+  color: #637369;
+  font-size: 13px;
+}
+.register-form .role-group{
+  border: none;
+}
+.register-form .form-group{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.register-form #full_name,.register-form #password{
+  border: solid .5px;
+  border-radius: 8px;
+  border-color: #DDE5D8;
+  width: 708px;
+  height: 53px;
+  margin-bottom: 10px;
+}
+.form-group input::placeholder{
+  padding-left: 10px;
+  font-size:15px ;
+  color: #7C8980;
+}
+
+.register-form .form-row{
+  display: flex;
+  flex: 1;
+  gap: 15px;
+}
+.register-form #phone, .register-form #district{
+  border: solid .5px;
+  border-radius: 8px;
+  border-color: #DDE5D8;
+  background-color: white;
+  width: 344px;
+  height: 53px;
+  margin-bottom: 10px;
+}
+.register-form #district{
+  padding: 12px 14px;
+  font-size: 14px;
+  font-family: inherit;
+  color: #1e293b;
+  background-color: #ffffff;
+  border: 1.5px solid #e2e8f0;
+  border-radius: 8px;
+  cursor: pointer;
+  outline: none;
+  box-sizing: border-box;
+  transition: border-color 0.2s ease, background-color 0.2s ease;
+}
+.register-form .form-check{
+color: #637369;
+font-size: 14px;
+padding: 10px 0px;
+}
+.register-form .form-check input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  accent-color: #0f5132; 
+  
+  cursor: pointer;
+  margin: 0;
+}
+
+.register-form .submit-btn{
+width: 708px;
+height: 52px;
+background-color:#174F3B ;
+color: white;
+font-size: 18px;
+border-radius: 8px;
+transition: 0.3s ease;
+border: none;
+}
+
+.register-form .submit-btn:hover{
+transform: scaleY(1.05) translateY(-4px);
+background-color: #acb773;
+color: black;
+}

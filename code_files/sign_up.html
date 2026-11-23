@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <div class="universal-head">
+        
+          <img src="../pics/fosol-logo.png" alt="" class="khamarika_logo" />
+          <h1>খামারীকা</h1>
+        
+      </div>
+    </header>
+    <div class="signup-page">
+      <div class="left">
+       
+          <img src="../pics/hompage_krishok.png" alt="" class="krishok-photo"/>
+        
+        <div class="left-bottom">
+          <h1>
+            কৃষির প্রতিটি ধাপে,<br />
+            আপনার বিশ্বস্ত সাথী।
+          </h1>
+          <p>
+            একটি অ্যাকাউন্টেই আপনার খামার, ফসল, বিশেষজ্ঞের সহায়তা ও নিজের বাজার।
+          </p>
+          <p class="features">
+            ✓ সহজ ব্যবস্থাপনা<br />
+            ✓ সঠিক সময়ে বিশেষজ্ঞের যোগাযোগ <br />
+            ✓ সরাসরি কৃষক–ক্রেতার সংযোগ
+          </p>
+        </div>
+      </div>
+
+      <div class="right">
+        <div class="right-top">
+          <h1>স্বাগতম খামারীকাতে</h1>
+          <p>আপনার পরিচয় দিন, একসাথে এগিয়ে যাই।</p>
+          <p class="steps">১ পরিচয় বাছাই ─── ২ আপনার তথ্য ─── ৩ মোবাইল যাচাই</p>
+        </div>
+        <form action="/register" method="POST" class="register-form">
+         
+          <fieldset class="role-group">
+            <legend class="role-heading">আপনি কী হিসেবে যুক্ত হতে চান?</legend>
+
+            <div class="role-grid">
+              <label class="role-card">
+                <input
+                  type="radio"
+                  name="user_role"
+                  value="cattle-farmer"
+                  required
+                  checked
+                />
+                <span class="role-content">
+                  <span class="role-title">গরুর খামারি</span>
+                  <span class="role-desc">পশু ও দুধের ব্যবস্থাপনা</span>
+                </span>
+              </label>
+
+              <label class="role-card">
+                <input type="radio" name="user_role" value="poultry-farmer" />
+                <span class="role-content">
+                  <span class="role-title">পোল্ট্রি খামারি</span>
+                  <span class="role-desc">ব্যাচ, খাদ্য ও ডিমের হিসাব</span>
+                </span>
+              </label>
+
+              <label class="role-card">
+                <input type="radio" name="user_role" value="vet" />
+                <span class="role-content">
+                  <span class="role-title">প্রাণী চিকিৎসক</span>
+                  <span class="role-desc">পশু চিকিৎসা ও পরামর্শ</span>
+                </span>
+              </label>
+
+              <label class="role-card">
+                <input type="radio" name="user_role" value="crop-farmer" />
+                <span class="role-content">
+                  <span class="role-title">ফসল চাষি</span>
+                  <span class="role-desc">জমি ও ফসলের পরিচর্যা</span>
+                </span>
+              </label>
+
+              <label class="role-card">
+                <input type="radio" name="user_role" value="buyer" />
+                <span class="role-content">
+                  <span class="role-title">ক্রেতা / সুপারমার্কেট</span>
+                  <span class="role-desc">সরাসরি কৃষকের কাছ থেকে কিনুন</span>
+                </span>
+              </label>
+
+              <label class="role-card">
+                <input type="radio" name="user_role" value="agronomist" />
+                <span class="role-content">
+                  <span class="role-title">কৃষিবিদ</span>
+                  <span class="role-desc">ফসল ও কৃষি পরামর্শ</span>
+                </span>
+              </label>
+            </div>
+          </fieldset>
+
+          <div class="form-group">
+            <label for="full_name">আপনার নাম</label>
+            <input
+              type="text"
+              id="full_name"
+              name="full_name"
+              placeholder="সম্পূর্ণ নাম লিখুন"
+              required
+            />
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="phone">মোবাইল নম্বর</label>
+              <input
+                type="tel"
+                id="phone"
+                name="phone"
+                placeholder="০১XXXXXXXXX"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="district">জেলা</label>
+              <select id="district" name="district" required>
+                <option value="" disabled selected>
+                  আপনার জেলা নির্বাচন করুন
+                </option>
+                <option value="dhaka">ঢাকা</option>
+                <option value="chattogram">চট্টগ্রাম</option>
+                <option value="rajshahi">রাজশাহী</option>
+                <option value="khulna">খুলনা</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="password">পাসওয়ার্ড</label>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="কমপক্ষে ৮ অক্ষর"
+              minlength="8"
+              required
+            />
+          </div>
+
+          <div class="form-check">
+            <input type="checkbox" id="terms" name="terms" required />
+            <label for="terms"
+              >আমি ব্যবহারের শর্ত ও গোপনীয়তা নীতিতে সম্মত।</label
+            >
+          </div>
+
+          <button type="submit" class="submit-btn">
+            অ্যাকাউন্ট তৈরি করুন →
+          </button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
