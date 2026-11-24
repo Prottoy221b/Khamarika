@@ -96,6 +96,7 @@ header {
   cursor: pointer;
   transition: all 0.4s ease;
 }
+
 .sign_in:hover{
   background-color: rgb(165, 212, 145);
   color: rgb(0, 0, 0);
@@ -396,7 +397,7 @@ transform: translateY(-4px) scale(1.05);
   font-size: 29px;
   font-weight: bold;
 }
-.signup-page{
+.signup-page,.login_page{
   display: flex;
   background-color: #eef3f1;
 }
@@ -404,14 +405,14 @@ transform: translateY(-4px) scale(1.05);
   height: 510px;
   width: 530px;
 }
-.signup-page .left{
+.signup-page .left,.login_page .left{
   background-color: #174F3B;
   width: 530px;
   height: 942px;
   margin: 40px;
   border-radius: 16px;
 }
-.signup-page .left-bottom{
+.signup-page .left-bottom,.login_page .left-bottom{
   padding: 40px;
   color: white;
   display: flex;
@@ -419,17 +420,17 @@ transform: translateY(-4px) scale(1.05);
   gap: 20px;
 }
 
-.signup-page .left-bottom .features{
+.signup-page .left-bottom .features,.login_page .left-bottom .features{
   color: #DDEA9A;
 }
-.signup-page .left-bottom p{
+.signup-page .left-bottom p,.login_page .left-bottom p{
   font-size: 19px;
 }
 
-.signup-page .right{
+.signup-page .right,.login_page .right{
   padding: 40px;
 }
-.signup-page .right-top h1{
+.signup-page .right-top h1,.login_page .right-top h1{
   color: #19392D;
   font-size: 35px;
   padding: 10px 0px;
@@ -510,12 +511,12 @@ transform: translateY(-4px) scale(1.05);
 .register-form .role-group{
   border: none;
 }
-.register-form .form-group{
+.register-form .form-group,.login_form{
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
-.register-form #full_name,.register-form #password{
+.register-form #full_name,.register-form #password,.login_form #phone,.login_form #password{
   border: solid .5px;
   border-radius: 8px;
   border-color: #DDE5D8;
@@ -523,7 +524,7 @@ transform: translateY(-4px) scale(1.05);
   height: 53px;
   margin-bottom: 10px;
 }
-.form-group input::placeholder{
+.form-group input::placeholder,.login_form input::placeholder{
   padding-left: 10px;
   font-size:15px ;
   color: #7C8980;
@@ -534,7 +535,7 @@ transform: translateY(-4px) scale(1.05);
   flex: 1;
   gap: 15px;
 }
-.register-form #phone, .register-form #district{
+.register-form #phone,  .register-form #district{
   border: solid .5px;
   border-radius: 8px;
   border-color: #DDE5D8;
@@ -556,7 +557,7 @@ transform: translateY(-4px) scale(1.05);
   box-sizing: border-box;
   transition: border-color 0.2s ease, background-color 0.2s ease;
 }
-.register-form .form-check{
+.register-form .form-check,.login_form .form-check{
 color: #637369;
 font-size: 14px;
 padding: 10px 0px;
@@ -570,7 +571,7 @@ padding: 10px 0px;
   margin: 0;
 }
 
-.register-form .submit-btn{
+.register-form .submit-btn,.login_form .login-btn{
 width: 708px;
 height: 52px;
 background-color:#174F3B ;
@@ -581,8 +582,29 @@ transition: 0.3s ease;
 border: none;
 }
 
-.register-form .submit-btn:hover{
+.register-form .submit-btn:hover,.login_form .login-btn:hover{
 transform: scaleY(1.05) translateY(-4px);
 background-color: #acb773;
 color: black;
+}
+
+
+.login_page .right-top h1{
+  color: #19392D;
+  font-size: 35px;
+  padding: 10px;
+  padding-left: 160px;
+}
+.login_form{
+  padding: 10px 0px;
+  gap: 20px;
+}
+.login_page footer{
+  display: flex;
+  padding:15px 250px;
+}
+.login_page footer a{
+  color: #174F3B;
+  text-decoration: none;
+  font-size: 14px;
 }
