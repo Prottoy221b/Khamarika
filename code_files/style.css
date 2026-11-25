@@ -397,7 +397,7 @@ transform: translateY(-4px) scale(1.05);
   font-size: 29px;
   font-weight: bold;
 }
-.signup-page,.login_page{
+.signup-page,.login_page,.forget_pass{
   display: flex;
   background-color: #eef3f1;
 }
@@ -405,14 +405,14 @@ transform: translateY(-4px) scale(1.05);
   height: 510px;
   width: 530px;
 }
-.signup-page .left,.login_page .left{
+.signup-page .left,.login_page .left,.forget_pass .left{
   background-color: #174F3B;
   width: 530px;
   height: 942px;
   margin: 40px;
   border-radius: 16px;
 }
-.signup-page .left-bottom,.login_page .left-bottom{
+.signup-page .left-bottom,.login_page .left-bottom,.forget_pass .left-bottom{
   padding: 40px;
   color: white;
   display: flex;
@@ -420,10 +420,10 @@ transform: translateY(-4px) scale(1.05);
   gap: 20px;
 }
 
-.signup-page .left-bottom .features,.login_page .left-bottom .features{
+.signup-page .left-bottom .features,.login_page .left-bottom .features,.forget_pass .left-bottom .features{
   color: #DDEA9A;
 }
-.signup-page .left-bottom p,.login_page .left-bottom p{
+.signup-page .left-bottom p,.login_page .left-bottom p,.forget_pass .left-bottom p{
   font-size: 19px;
 }
 
@@ -511,7 +511,7 @@ transform: translateY(-4px) scale(1.05);
 .register-form .role-group{
   border: none;
 }
-.register-form .form-group,.login_form{
+.register-form .form-group,.login_form,.forget_pass_form{
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -524,7 +524,7 @@ transform: translateY(-4px) scale(1.05);
   height: 53px;
   margin-bottom: 10px;
 }
-.form-group input::placeholder,.login_form input::placeholder{
+.form-group input::placeholder,.login_form input::placeholder,.forget_pass_form input::placeholder{
   padding-left: 10px;
   font-size:15px ;
   color: #7C8980;
@@ -581,6 +581,36 @@ border-radius: 8px;
 transition: 0.3s ease;
 border: none;
 }
+.login_form .pass_forget{
+  display: flex;
+  flex-direction: column;
+  gap:15px;
+  
+  
+}
+.login_form .justpass{
+  display: flex;
+ 
+  
+}
+.login_form .justpass a{
+  text-decoration: none;
+  color: #174F3B;
+  font-size: 14px;
+}
+
+.login_form .justpass label{
+  width:500px;
+}
+.login_form .forpass a{
+  text-decoration: none;
+  color: #174F3B;
+  font-size: 14px;
+  
+}
+.login_form{
+  width:780px;
+}
 
 .register-form .submit-btn:hover,.login_form .login-btn:hover{
 transform: scaleY(1.05) translateY(-4px);
@@ -607,4 +637,41 @@ color: black;
   color: #174F3B;
   text-decoration: none;
   font-size: 14px;
+}
+.forget_pass .right-top{
+  height: 120px;
+  width: 470px;
+}
+.forget_pass .right{
+  padding: 300px 130px;
+
+  gap: 20px;
+}
+
+.forget_pass .right-top h2{
+  color: #174F3B;
+  font-size: 30px;
+  padding-bottom:6px;
+}
+.forget_pass .right-top p{
+  font-size: 16px;
+}
+
+.forget_pass_form #phone{
+  border: solid .5px;
+  border-radius: 8px;
+  border-color: #DDE5D8;
+  width: 470px;
+  height: 53px;
+  margin-bottom: 10px;
+}
+.forget_pass_form .forget-btn{
+  width: 470px;
+  height: 52px;
+  background-color:#174F3B ;
+  color: white;
+  font-size: 18px;
+  border-radius: 8px;
+  transition: 0.3s ease;
+  border: none;
 }
